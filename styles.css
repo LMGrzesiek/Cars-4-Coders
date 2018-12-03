@@ -1,0 +1,27 @@
+body{
+    width: 100%;
+    background-color: lightblue;
+    
+}
+
+
+
+.navbar-nav{
+    display: flex;
+    width: 50%;
+    align-items: space-between;
+}
+.navbar-brand{
+    font-size: 2em;
+    
+}
+.nav-item{
+    display:flex;
+    border:solid 1px black;
+    border-color: lightgray;
+    background-color: gray;
+}
+
+.card{
+    margin:1%;
+}
