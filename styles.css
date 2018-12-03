@@ -1,15 +1,24 @@
 body{
     width: 100%;
-    background-color: lightblue;
-    
+    background-color: lightslategray;
+    padding-top: 50px;
+    align-items: center;
 }
 
-
+.navbar{
+    border-radius: 10px;
+    max-width: 90%;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 5px 5px white;
+}
 
 .navbar-nav{
     display: flex;
     width: 50%;
     align-items: space-between;
+    border-radius: 5px;
 }
 .navbar-brand{
     font-size: 2em;
@@ -20,8 +29,20 @@ body{
     border:solid 1px black;
     border-color: lightgray;
     background-color: gray;
+    border-radius: 5px;
+    align-items: space-around;
 }
+
+.carousel-inner{
+    background-color: darkcyan;
+    border: solid 3px whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
 
 .card{
     margin:1%;
+    border-radius: 10px;
+
 }
